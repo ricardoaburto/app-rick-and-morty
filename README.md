@@ -72,7 +72,7 @@ Run the database seeder and you're done
 ```
  GET http://127.0.0.1:8000/api/personajes
  ```
-    STATUS 200
+ STATUS 200
  ```
     Return
     "data": [
@@ -88,11 +88,11 @@ Run the database seeder and you're done
                 }
             ]
         }];
-   ```
+ ```
    POST http://127.0.0.1:8000/api/personajes
-  ```
+ ```
    STATUS 201
-  ```
+ ```
     Body
         raw
             {
@@ -104,9 +104,9 @@ Run the database seeder and you're done
             {"url":"https://www.youtube.com/watch?v=jsVcX9-cYZw&list=PL-8hlyCft4pj-T7Z8DNP5VpT_kkg9CZfs&index=5"}
             ]
         }
-  ```
+ ```
   PUT http://127.0.0.1:8000/api/personajes/1
-  ```
+ ```
   STATUS 200
   ```
     Body
