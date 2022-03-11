@@ -143,12 +143,10 @@ Run the database seeder and you're done
                 "updated_at": "2022-03-11T02:33:39.000000Z"
             }
          }
-     ```
-         
-    ```
-    DELETE http://127.0.0.1:8000/api/personajes/1
-    ```
+  ```
+  DELETE http://127.0.0.1:8000/api/personajes/1
+  ```
     STATUS 204
-        
+  ```      
         
         
