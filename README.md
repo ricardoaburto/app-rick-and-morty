@@ -41,28 +41,13 @@ Update .env
     DB_USERNAME=root
     DB_PASSWORD=
 
-Run the database migrations (**Set the database connection in .env before migrating**)
-
-    php artisan migrate
-
-Start the local development server
-
-    php artisan serve
-
-You can now access the server at http://localhost:8000
-
     
 **Make sure you set the correct database connection information before running the migrations** [Environment variables](#environment-variables)
 
     php artisan migrate
+    php artisan db:seed
     php artisan serve
 
-## Database seeding
-
-**Populate the database with seed data with relationships which includes users, articles, comments, tags, favorites and follows. This can help you to quickly start testing the api or couple a frontend and start using it with ready content.**
-Run the database seeder and you're done
-
-    php artisan db:seed
 
 ***Note*** : It's recommended to have a clean database before seeding. You can refresh your migrations at any point to clean the database by running the following command
 
