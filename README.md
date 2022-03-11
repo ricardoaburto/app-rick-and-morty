@@ -88,9 +88,11 @@ Run the database seeder and you're done
                 }
             ]
         }];
-        
+   ```
    POST http://127.0.0.1:8000/api/personajes
+  ```
    STATUS 201
+  ```
     Body
         raw
             {
@@ -102,19 +104,24 @@ Run the database seeder and you're done
             {"url":"https://www.youtube.com/watch?v=jsVcX9-cYZw&list=PL-8hlyCft4pj-T7Z8DNP5VpT_kkg9CZfs&index=5"}
             ]
         }
-        
+  ```
   PUT http://127.0.0.1:8000/api/personajes/1
+  ```
   STATUS 200
+  ```
     Body
         raw 
             {
             "nombre": "Jerry Smith",
             "genero": "Human"
             }
-    
+  ```
   GET http://127.0.0.1:8000/api/personajes/search/Female
+  ```
   STATUS 200
-       EXAMPLE search Genre or Name
+  ```
+   EXAMPLE search Genre or Name
+   ```
         [
             {
                 "id": 1,
@@ -133,8 +140,9 @@ Run the database seeder and you're done
                 "updated_at": "2022-03-11T02:33:39.000000Z"
             }
          }
-        
+    ```
     DELETE http://127.0.0.1:8000/api/personajes/1
+    ```
     STATUS 204
         
         
