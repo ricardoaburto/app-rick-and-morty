@@ -124,7 +124,7 @@ Run the database seeder and you're done
   STATUS 200
   ```
    EXAMPLE search Genre or Name
-   ```
+  
         [
             {
                 "id": 1,
@@ -143,6 +143,7 @@ Run the database seeder and you're done
                 "updated_at": "2022-03-11T02:33:39.000000Z"
             }
          }
+     ```
          
     ```
     DELETE http://127.0.0.1:8000/api/personajes/1
