@@ -69,9 +69,11 @@ Run the database seeder and you're done
     php artisan migrate:refresh
     
 ## Endpoint
-
+```
  GET http://127.0.0.1:8000/api/personajes
+ ```
     STATUS 200
+ ```
     Return
     "data": [
         {
