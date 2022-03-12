@@ -55,6 +55,12 @@ Update .env
     
 ## Endpoint
 ```
+List Route
+```
+php artisan route:list
+
+
+```
  GET http://127.0.0.1:8000/api/personajes
  ```
  STATUS 200
