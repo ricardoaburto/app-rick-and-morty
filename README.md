@@ -54,11 +54,11 @@ Update .env
     php artisan migrate:refresh
     
 ## Endpoint
-```
+
 List Route
 ```
 php artisan route:list
-
+```
 
 ```
  GET http://127.0.0.1:8000/api/personajes
@@ -97,7 +97,7 @@ php artisan route:list
             ]
         }
         
- ```
+
   PUT http://127.0.0.1:8000/api/personajes/1
  ```
   STATUS 200
@@ -109,7 +109,7 @@ php artisan route:list
             "genero": "Human"
             }
             
-  ```
+
   GET http://127.0.0.1:8000/api/personajes/search/Female
   ```
   STATUS 200
