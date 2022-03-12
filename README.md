@@ -1,4 +1,3 @@
-
 # API RICK AND MORTY
 
 
@@ -61,9 +60,10 @@ php artisan route:list
 ```
 
 ```
- GET http://127.0.0.1:8000/api/personajes
+GET http://127.0.0.1:8000/api/personajes
  ```
- STATUS 200
+ ```
+STATUS 200
 
     Return
     "data": [
@@ -80,11 +80,12 @@ php artisan route:list
             ]
         }];
         
-
-   POST http://127.0.0.1:8000/api/personajes
+```
+```
+POST http://127.0.0.1:8000/api/personajes
+ ```
  ```
    STATUS 201
-
     Body
         raw
             {
@@ -97,11 +98,12 @@ php artisan route:list
             ]
         }
         
-
-  PUT http://127.0.0.1:8000/api/personajes/1
+```
+```
+PUT http://127.0.0.1:8000/api/personajes/1
  ```
+```
   STATUS 200
-
     Body
         raw 
             {
@@ -109,12 +111,13 @@ php artisan route:list
             "genero": "Human"
             }
             
-
-  GET http://127.0.0.1:8000/api/personajes/search/Female
-  ```
-  STATUS 200
-
-   EXAMPLE search Genre or Name
+```
+```
+GET http://127.0.0.1:8000/api/personajes/search/Female
+```
+```
+STATUS 200
+EXAMPLE search Genre or Name
   
         [
             {
@@ -134,10 +137,10 @@ php artisan route:list
                 "updated_at": "2022-03-11T02:33:39.000000Z"
             }
          }
-  
-  DELETE http://127.0.0.1:8000/api/personajes/1
+```
+```
+DELETE http://127.0.0.1:8000/api/personajes/1
   ```
-    STATUS 204
+```
+STATUS 204
   ```      
-        
-        
