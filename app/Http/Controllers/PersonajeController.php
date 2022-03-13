@@ -17,7 +17,7 @@ class PersonajeController extends Controller
      */
     public function index()
     {
-        return PersonajeResource::collection(Personaje::with('episodio')->get());
+        return PersonajeResource::collection(Personaje::with('episodio')->paginate(15));
     }
 
     /**
